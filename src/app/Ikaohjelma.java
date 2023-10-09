@@ -4,8 +4,8 @@ public class Ikaohjelma {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-int ika = 77;
-		
+int ika = 18;
+		//muuta ika numeroa saadaksesi eri vastaus
 		// Tulostusehdot
 		
 		if(ika >= 0 && ika < 18)
@@ -14,11 +14,11 @@ int ika = 77;
 		}
 		if(ika == 15)
 				{
-					System.out.println("saat nyt ajaa mopoa");
+					System.out.println("saat nyt ajaa mopoa suoritettuasi mopokortin");
 				}
 		if(ika >= 16 && ika <= 17)
 			{
-				System.out.println("voit nyt ajaa kevaria");
+				System.out.println("voit nyt ajaa Kevytmoottoripyörää");
 			}
 		else if(ika == 18)
 				{
